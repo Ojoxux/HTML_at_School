@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+body{
+    color : black;
+}
+h1{
+    color : #87ceeb;
+}
+h3{
+    font-family: serif;
+}
+h4{
+    font-family: sans-serif;
+}
+p{
+    font-family: monospace;
+}

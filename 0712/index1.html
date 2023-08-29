@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>フォームの練習</title>
+  </head>
+  <body>
+    <h2>アンケートにお答えください</h2>
+    <form action="#" method="post">
+        <p>氏名：<input type="text" name="" size="30"></p>
+        <p>性別：
+            <input type="radio" name="seibetu" value="男性">男性
+            <input type="radio" name="seibetu" value="女性">女性
+        </p>
+        <p>お住まいの地域</p>
+            <select name="area">
+                <option value="未選択">選択して下さい</option>
+                <option value="北海道">北海道</option>
+                <option value="東北">東北</option>
+                <option value="関東">関東</option>
+                <option value="中部">中部</option>
+                <option value="近畿">近畿</option>
+                <option value="中国">中国</option>
+                <option value="四国">四国</option>
+                <option value="九州">九州</option>
+                <option value="沖縄">沖縄</option>
+            </select>
+        <p>面白かったページ</p>
+            <input type="checkbox" name="page" value="アニメ">アニメ
+            <input type="checkbox" name="page" value="ゲーム">ゲーム
+            <input type="checkbox" name="page" value="芸能">芸能
+        <p>感想をお願いします</p>
+            <textarea name="impress" rows="5" cols="60"></textarea>
+    </form>
+  </body>
+</html>
